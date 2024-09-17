@@ -35,7 +35,9 @@ body {
   border: none;
   color: white;
 }
-
+.language__drop__down:hover{
+  cursor: pointer;
+}
 .language__drop__down:focus {
   outline: none;
 }
@@ -50,7 +52,9 @@ body {
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.4);
 }
-
+.signin__button:hover{
+  cursor: pointer;
+}
 .signin__button {
   background-color: #dc030f;
   border: 1px solid #dc030f;
@@ -167,7 +171,9 @@ body {
   font-size: 15px;
   letter-spacing: 1px;
 }
-
+.primary__button:hover{
+  cursor: pointer;
+}
 .feature {
   border-top: 8px solid #222;
   padding: 2rem 1rem;
@@ -523,4 +529,7 @@ footer {
 }
 
 @media (min-width: 1254px) {
+}
+.fal fa-plus:hover{
+  cursor: pointer;
 }
